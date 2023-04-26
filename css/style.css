@@ -221,6 +221,10 @@ img {
 .show-menu {
   bottom: 0;
 }
+
+.active-link {
+	color: var(--first-color);
+}
 /* Nav */
 
 /* Home */
