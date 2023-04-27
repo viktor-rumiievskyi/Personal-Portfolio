@@ -288,13 +288,30 @@ img {
   color: var(--first-color-alt);
 }
 
+.home_icons {
+	display: grid;
+	grid-template-columns: repeat(2, .2fr);
+	font-size: 1.25rem;
+  color: var(--container-color);
+}
+
+.home_icon {
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+.home_icon:hover {
+  color: var(--first-color-alt);
+}
+
 .home_blob {
   width: 200px;
   fill: var(--first-color);
 }
 
 .home_blob-img {
-  width: 90px;
+  width: 100px;
+	border-radius: 0.5rem;
 }
 
 .home_data {
@@ -388,7 +405,8 @@ img {
 
 /* About */
 .about_img {
-  width: 200px;
+	height: 150px;
+  width: 400px;
   border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
@@ -999,7 +1017,8 @@ img {
 		column-gap: 5rem;
 	}
 	.about_img {
-		width: 180px;
+		height: 250px;
+		width: 225px;
 	}
 	.about_description {
 		text-align: initial;
