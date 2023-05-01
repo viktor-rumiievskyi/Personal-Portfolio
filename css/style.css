@@ -1027,6 +1027,7 @@ img {
 		justify-content: space-between;
 	}
 	.about_buttons {
+		text-align: center;
 		justify-content: initial;
 	}
 
