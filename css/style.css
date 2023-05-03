@@ -405,8 +405,8 @@ img {
 
 /* About */
 .about_img {
-	height: 150px;
-  width: 400px;
+	/* height: 150px;
+  width: 400px; */
   border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
@@ -899,6 +899,7 @@ img {
 	.home_blob {
 		width: 180px;
 	}
+
 
 	.skills_title {
 		font-size: var(--normal-font-size);
